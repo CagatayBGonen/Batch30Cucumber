@@ -5,7 +5,7 @@ Feature: US1002 amazon search with background
     When kullanici amazon sayfasina gider
 
   @amazon @nutella
-  Scenario: TC01 amazon nutella arama
+  Scenario: TC04 amazon nutella arama
 
 
     And nutella icin arama yapar
@@ -13,7 +13,7 @@ Feature: US1002 amazon search with background
     And sayfayi kapatir
 
   @amazon @java
-  Scenario: TC02 amazon java arama
+  Scenario: TC05 amazon java arama
 
 
     And java icin arama yapar
@@ -21,7 +21,7 @@ Feature: US1002 amazon search with background
     And sayfayi kapatir
 
   @amazon @ipad
-  Scenario: TC03 amazon ipad arama
+  Scenario: TC06 amazon ipad arama
 
 
     And ipad icin arama yapar

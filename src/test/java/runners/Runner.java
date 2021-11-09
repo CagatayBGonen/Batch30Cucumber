@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@background", // feature'da scenariolara tagler atayabiliriz.
+        tags = "@amazon", // feature'da scenariolara tagler atayabiliriz.
         // atanan taglari burada yazarak calistirabiliriz.
 
         dryRun = false
