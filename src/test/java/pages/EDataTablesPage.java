@@ -40,7 +40,7 @@ public class EDataTablesPage {
     @FindBy(xpath = "//input[@type='search']")
     public WebElement searchBox;
 
-    @FindBy(id = "example")
-    public WebElement tablo;
+    @FindBy(xpath= "//tbody/tr/td[2]")
+    public WebElement tabloName;
 
 }

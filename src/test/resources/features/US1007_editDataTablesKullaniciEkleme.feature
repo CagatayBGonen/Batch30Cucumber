@@ -22,4 +22,4 @@ Feature: US1007 edit DataTables kullanici ekleme testi
     |firstName|lastName|position|office|extension|startDate|salary|firstLastName|
     |murat  |soner     |TestLead|Paris |124      |2021-12-13|60000|murat soner  |
     |Hakan  |Suna     |QA|Kenya |126      |2021-12-14|40000|Hakan Suna          |
-    |Furkan  |Yilamz     |QA|Adana |128      |2021-12-15|80000|Furkan Yilmaz    |
+    |Furkan  |Yilmaz     |QA|Adana |128      |2021-12-15|80000|Furkan Yilmaz    |

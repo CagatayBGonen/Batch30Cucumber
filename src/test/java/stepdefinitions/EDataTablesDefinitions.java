@@ -49,6 +49,6 @@ public class EDataTablesDefinitions {
     }
     @Then("EDT isim bolumunda {string} oldugunu dogrular")
     public void edtIsimBolumundaOldugunuDogrular(String expectedName) {
-        Assert.assertTrue("isim tabloda yer almiyor",eDataTablesPage.tablo.getText().contains(expectedName));
+        Assert.assertTrue("isim tabloda yer almiyor",eDataTablesPage.tabloName.getText().contains(expectedName));
     }
 }
