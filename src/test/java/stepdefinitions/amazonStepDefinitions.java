@@ -68,4 +68,9 @@ public class amazonStepDefinitions {
     public void kullaniciSayfasinaGider(String expectedURL) {
         Driver.getDriver().get(ConfigurationReader.getProperty(expectedURL));
     }
+
+    @And("sonuc sayisinin yazdirir")
+    public void sonucSayisininYazdirir() {
+        System.out.println(amazonPage.resultText.getText());
+    }
 }
