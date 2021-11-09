@@ -11,6 +11,9 @@ import org.junit.runner.RunWith;
         tags = "@amazon",
 
         dryRun = true
+            // dryRun=true --> testi calistirmadan bize eksik adimi verir
+            // dryRun=false --> testi calistirir, eksik adimla karsilasirsa test failed olur
+            // ve bize eksik adimi raporlar.
 )
 
 public class Runner {

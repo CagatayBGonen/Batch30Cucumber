@@ -6,3 +6,4 @@ Feature: US1001 amazon arama
     When kullanici amazon sayfasina gider
     And nutella icin arama yapar
     Then sonucunun nutella icerdigini test eder
+    And sayfayi kapatir
