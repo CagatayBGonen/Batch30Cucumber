@@ -6,9 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin ={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@EDT", // feature'da scenariolara tagler atayabiliriz.
+        tags = "@EDTMultiParam", // feature'da scenariolara tagler atayabiliriz.
         // atanan taglari burada yazarak calistirabiliriz.
 
         dryRun = false
