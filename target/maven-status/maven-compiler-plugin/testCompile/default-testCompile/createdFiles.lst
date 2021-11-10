@@ -1,0 +1,13 @@
+runners\ParalelTestRunner01.class
+runners\ParalelTestRunner02.class
+pages\AmazonPage.class
+stepdefinitions\Hooks.class
+pages\EbayPage.class
+runners\Runner.class
+stepdefinitions\amazonStepDefinitions.class
+utilities\Driver.class
+utilities\ConfigurationReader.class
+pages\EDataTablesPage.class
+stepdefinitions\QAConcortHotelStepDefinitions.class
+stepdefinitions\EDataTablesDefinitions.class
+pages\QAConcortHotelPage.class

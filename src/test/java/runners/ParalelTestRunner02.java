@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/Pcucumber2.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@amazonParalel2", // feature'da scenariolara tagler atayabiliriz.
+        tags = "@Paralel2", // feature'da scenariolara tagler atayabiliriz.
         // atanan taglari burada yazarak calistirabiliriz.
 
         dryRun = false

@@ -1,4 +1,6 @@
+@Paralel2
 Feature: US1004 ebay sayfasinda kelime arama
+  @Ebay @EbaySearch
   Scenario: TC08 kullanici bestbuyda istedigi kelimeyi aratmayi test eder
     # bu test CALISMAZ
     Given kullanici "ebayURL" sayfasina gider

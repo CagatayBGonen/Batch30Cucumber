@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="144.104">
+    <testcase classname="US1004 ebay sayfasinda kelime arama" name="TC08 kullanici bestbuyda istedigi kelimeyi aratmayi test eder" time="28.885">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}&#10;  (Session info: chrome=95.0.4638.69)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-ULPO43E0', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\cbgon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a622cc84477792f7d85fa147f395cd26&#10;*** Element info: {Using=id, value=twotabsearchtextbox}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given kullanici "ebayURL" sayfasina gider...................................passed
+Then "nutella" icin arama yapar.............................................failed
+And sonucunun "nutella" icerdigini test eder................................skipped
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ULPO43E0', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\cbgon\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a622cc84477792f7d85fa147f395cd26
+*** Element info: {Using=id, value=twotabsearchtextbox}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at stepdefinitions.amazonStepDefinitions.icinAramaYapar(amazonStepDefinitions.java:59)
+	at ✽."nutella" icin arama yapar(file:///C:/Users/cbgon/IdeaProjects/com.Batch30Cucumber/src/test/resources/features/US1004_ebaySearch.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1005 amazonda list ile arama" name="TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz" time="19.33">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "nutella" icin arama yapar.............................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "nutella" icerdigini test eder................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 amazonda list ile arama" name="TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz 2" time="21.227">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "java" icin arama yapar................................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "java" icerdigini test eder...................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 amazonda list ile arama" name="TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz 3" time="21.83">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "ipad" icin arama yapar................................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "ipad" icerdigini test eder...................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 amazonda list ile arama" name="TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz 4" time="29.69">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "armut" icin arama yapar...............................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "armut" icerdigini test eder..................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005 amazonda list ile arama" name="TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz 5" time="22.102">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "apple" icin arama yapar...............................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "apple" icerdigini test eder..................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
