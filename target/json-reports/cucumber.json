@@ -1,0 +1,475 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T13:07:19.553Z",
+        "line": 14,
+        "name": "TC12 editor sayfasina farkli kisileri ekleme",
+        "description": "",
+        "id": "us1008-editor-cok-parametreli-giris-testi;tc12-editor-sayfasina-farkli-kisileri-ekleme;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3819313400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"editDataTablesURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"editDataTablesURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172272300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "EDT new bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_new_bttn_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2426771100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "EDT ilgili kutulara \"murat\" \"soner\" \"TestLead\" \"Paris\" \"124\" \"2021-12-13\" \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"murat\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"soner\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"TestLead\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Paris\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"124\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2021-12-13\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIlgiliKutulara(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80757000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "EDT create bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_create_bttn_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177172100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "EDT kullanici \"murat soner\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"murat soner\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtKullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110097700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "EDT isim bolumunda \"murat soner\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"murat soner\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIsimBolumundaOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703777100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EDT"
+          },
+          {
+            "name": "@EDTNewUser"
+          },
+          {
+            "name": "@EDTMultiParam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T13:07:27.139Z",
+        "line": 15,
+        "name": "TC12 editor sayfasina farkli kisileri ekleme",
+        "description": "",
+        "id": "us1008-editor-cok-parametreli-giris-testi;tc12-editor-sayfasina-farkli-kisileri-ekleme;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2462241500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"editDataTablesURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"editDataTablesURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183115300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "EDT new bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_new_bttn_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2392442800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "EDT ilgili kutulara \"Hakan\" \"Suna\" \"QA\" \"Kenya\" \"126\" \"2021-12-14\" \"40000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hakan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Suna\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"QA\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Kenya\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"126\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2021-12-14\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"40000\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIlgiliKutulara(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95936400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "EDT create bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_create_bttn_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169428300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "EDT kullanici \"Hakan Suna\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hakan Suna\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtKullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130689100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "EDT isim bolumunda \"Hakan Suna\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hakan Suna\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIsimBolumundaOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1138786500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EDT"
+          },
+          {
+            "name": "@EDTNewUser"
+          },
+          {
+            "name": "@EDTMultiParam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T13:07:33.722Z",
+        "line": 16,
+        "name": "TC12 editor sayfasina farkli kisileri ekleme",
+        "description": "",
+        "id": "us1008-editor-cok-parametreli-giris-testi;tc12-editor-sayfasina-farkli-kisileri-ekleme;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3045175100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"editDataTablesURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"editDataTablesURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100794400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "EDT new bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_new_bttn_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2398173200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "EDT ilgili kutulara \"Furkan\" \"Yilmaz\" \"QA\" \"Adana\" \"128\" \"2021-12-15\" \"80000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Furkan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Yilmaz\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"QA\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Adana\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"128\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2021-12-15\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"80000\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIlgiliKutulara(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71928400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "EDT create bttn basar",
+            "match": {
+              "location": "stepdefinitions.EDataTablesDefinitions.edt_create_bttn_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172369900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "EDT kullanici \"Furkan Yilmaz\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Furkan Yilmaz\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtKullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112611000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "EDT isim bolumunda \"Furkan Yilmaz\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Furkan Yilmaz\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.EDataTablesDefinitions.edtIsimBolumundaOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702510700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EDT"
+          },
+          {
+            "name": "@EDTNewUser"
+          },
+          {
+            "name": "@EDTMultiParam"
+          }
+        ]
+      }
+    ],
+    "name": "US1008 editor cok parametreli giris testi",
+    "description": "",
+    "id": "us1008-editor-cok-parametreli-giris-testi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1008_editorCokParametreliGiris.feature",
+    "tags": []
+  }
+]
