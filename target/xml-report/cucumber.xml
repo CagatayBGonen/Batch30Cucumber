@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.01">
-    <testcase classname="US1008 editor cok parametreli giris testi" name="TC12 editor sayfasina farkli kisileri ekleme" time="7.562">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.564">
+    <testcase classname="US1009 Concort Hotel Login testi" name="TC13 positive login testi" time="31.298">
         <system-out>
-            <![CDATA[Given kullanici "editDataTablesURL" sayfasina gider.........................passed
-Then EDT new bttn basar.....................................................passed
-And EDT ilgili kutulara "murat" "soner" "TestLead" "Paris" "124" "2021-12-13" "60000".passed
-And EDT create bttn basar...................................................passed
-When EDT kullanici "murat soner" ile arama yapar............................passed
-Then EDT isim bolumunda "murat soner" oldugunu dogrular.....................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US1008 editor cok parametreli giris testi" name="TC12 editor sayfasina farkli kisileri ekleme 2" time="6.575">
-        <system-out>
-            <![CDATA[Given kullanici "editDataTablesURL" sayfasina gider.........................passed
-Then EDT new bttn basar.....................................................passed
-And EDT ilgili kutulara "Hakan" "Suna" "QA" "Kenya" "126" "2021-12-14" "40000".passed
-And EDT create bttn basar...................................................passed
-When EDT kullanici "Hakan Suna" ile arama yapar.............................passed
-Then EDT isim bolumunda "Hakan Suna" oldugunu dogrular......................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US1008 editor cok parametreli giris testi" name="TC12 editor sayfasina farkli kisileri ekleme 3" time="6.606">
-        <system-out>
-            <![CDATA[Given kullanici "editDataTablesURL" sayfasina gider.........................passed
-Then EDT new bttn basar.....................................................passed
-And EDT ilgili kutulara "Furkan" "Yilmaz" "QA" "Adana" "128" "2021-12-15" "80000".passed
-And EDT create bttn basar...................................................passed
-When EDT kullanici "Furkan Yilmaz" ile arama yapar..........................passed
-Then EDT isim bolumunda "Furkan Yilmaz" oldugunu dogrular...................passed
+            <![CDATA[When kullanici "QAConcortHotelURL" sayfasina gider..........................passed
+Then QACH login linkine tiklar..............................................passed
+And QACH username kutusuna "manager" yazar..................................passed
+And QACH password kutusuna "Manager1!" yazar................................passed
+And QACH login buttn basar..................................................passed
+Then QACH giris yapildigini test eder.......................................passed
 And sayfayi kapatir.........................................................passed
 ]]>
         </system-out>

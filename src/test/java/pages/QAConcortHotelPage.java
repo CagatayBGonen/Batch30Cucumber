@@ -24,4 +24,7 @@ public class QAConcortHotelPage {
 
     @FindBy(xpath = "//div[@class='validation-summary-errors']")
     public WebElement validationErrorText;
+
+    @FindBy(xpath = "//span[text()='ListOfUsers']")
+    public WebElement validationPassText;
 }

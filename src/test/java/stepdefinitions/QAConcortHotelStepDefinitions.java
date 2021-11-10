@@ -27,4 +27,9 @@ public class QAConcortHotelStepDefinitions {
     public void qachGirisYapilamadiginiTestEder() {
         Assert.assertTrue(qaConcortHotelPage.validationErrorText.isDisplayed());
     }
+
+    @Then("QACH giris yapildigini test eder")
+    public void qachGirisYapildiginiTestEder() {
+        Assert.assertTrue(qaConcortHotelPage.validationPassText.isDisplayed());
+    }
 }
