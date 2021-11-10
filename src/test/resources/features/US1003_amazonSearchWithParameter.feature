@@ -1,5 +1,5 @@
 Feature: US1003 amazon search with parameter
-
+  @amazon
   Scenario: TC07 istenen kelimenin oldugunu test etme
     Given kullanici "techproeducationURL" sayfasina gider
     And "nutella" icin arama yapar

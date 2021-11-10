@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target\\cucumber-reports.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"},
+        plugin = {"html:target\\cucumber-Preports1.html",
+                "json:target/json-reports/Pcucumber1.json",
+                "junit:target/xml-report/Pcucumber1.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@amazon", // feature'da scenariolara tagler atayabiliriz.
+        tags = "@amazonParalel1", // feature'da scenariolara tagler atayabiliriz.
         // atanan taglari burada yazarak calistirabiliriz.
 
         dryRun = false
@@ -20,6 +20,6 @@ import org.junit.runner.RunWith;
         // ve bize eksik adimi raporlar.
 )
 
-public class Runner {
-    //bu class tamamiyle tagler ile calisiyor
+
+public class ParalelTestRunner01 {
 }
