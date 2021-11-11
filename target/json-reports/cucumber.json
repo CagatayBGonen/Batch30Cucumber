@@ -1,0 +1,369 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T21:06:05.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC14 data provider gibi arama olusturma testi",
+        "description": "",
+        "id": "us1010-data-provider-deneme-testi;tc14-data-provider-gibi-arama-olusturma-testi;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2723310100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7070847300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"amazonURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3676267200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"java\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96908500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sonuc sayisinin yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisininYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35937400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonucunun \"java\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucununIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 864698500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazonMultiSearch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T21:06:20.372Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC14 data provider gibi arama olusturma testi",
+        "description": "",
+        "id": "us1010-data-provider-deneme-testi;tc14-data-provider-gibi-arama-olusturma-testi;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2575918700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5856378200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"amazonURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3526997100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"nutella\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nutella\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93932700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sonuc sayisinin yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisininYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34904300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonucunun \"nutella\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nutella\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucununIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 796244200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazonMultiSearch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T21:06:33.279Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC14 data provider gibi arama olusturma testi",
+        "description": "",
+        "id": "us1010-data-provider-deneme-testi;tc14-data-provider-gibi-arama-olusturma-testi;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2519414300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6994264200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"amazonURL\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonURL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3672599100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"araba\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"araba\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84163600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sonuc sayisinin yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisininYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30932700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonucunun \"araba\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"araba\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucununIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 791625700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazonMultiSearch"
+          }
+        ]
+      }
+    ],
+    "name": "US1010 data provider deneme testi",
+    "description": "",
+    "id": "us1010-data-provider-deneme-testi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1010_dataProvider.feature",
+    "tags": []
+  }
+]

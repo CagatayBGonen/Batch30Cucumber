@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="41.948">
+    <testcase classname="US1010 data provider deneme testi" name="TC14 data provider gibi arama olusturma testi" time="14.583">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "java" icin arama yapar................................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "java" icerdigini test eder...................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1010 data provider deneme testi" name="TC14 data provider gibi arama olusturma testi 2" time="12.891">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "nutella" icin arama yapar.............................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "nutella" icerdigini test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1010 data provider deneme testi" name="TC14 data provider gibi arama olusturma testi 3" time="14.098">
+        <system-out>
+            <![CDATA[Given kullanici "amazonURL" sayfasina gider.................................passed
+Then "araba" icin arama yapar...............................................passed
+And sonuc sayisinin yazdirir................................................passed
+And sonucunun "araba" icerdigini test eder..................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

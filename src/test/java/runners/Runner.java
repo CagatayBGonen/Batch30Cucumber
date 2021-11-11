@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@amazon", // feature'da scenariolara tagler atayabiliriz.
+        tags = "@amazonMultiSearch", // feature'da scenariolara tagler atayabiliriz.
         // atanan taglari burada yazarak calistirabiliriz.
 
         dryRun = false
